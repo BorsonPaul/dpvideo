@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sss"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".Reg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Registration"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Name"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:id="@+id/name_et"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Email"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:id="@+id/email_et"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:hint="Enter Password"
+        android:id="@+id/pass_et"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:hint="Enter Confirm Password"
+        android:id="@+id/Conpass_et"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#01579B"
+        android:onClick="registration"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login if allready Registered"
+        android:textColor="@color/white"
+        android:onClick="regis"/>
+
+</LinearLayout>
